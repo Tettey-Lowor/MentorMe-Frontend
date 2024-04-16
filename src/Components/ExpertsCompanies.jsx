@@ -1,48 +1,56 @@
 import React from 'react'
+import Amazon from '../Assets/Amazon.jpg'
+import Google from '../Assets/google.jpg'
+import Magento from '../Assets/980_magento_logo.jpg'
+import Hubspot from '../Assets/hubspot.png'
+import MEST from '../Assets/MEST.jpg'
+import META from '../Assets/META.png'
+import Microsoft from '../Assets/Microsoft.jpg'
+import Drupal from '../Assets/390_drupal.jpg'
 
 export default function ExpertsCompanies() {
     const Experiencess = () => {
         const techs = [
           {
             id: 1,
-            src: html,
-            title: "HTML",
+            src: Amazon,
+            title: "Amazon",
             style: "shadow-orange-500",
           },
           {
             id: 2,
-            src: css,
-            title: "CSS",
+            src: Google,
+            title: "Google",
             style: "shadow-blue-500",
           },
           {
             id: 3,
-            src: javascript,
-            title: "Javascript",
+            src: Magento,
+            title: "Magento",
             style: "shadow-yellow-500",
           },
           {
             id: 4,
-            src: reactImage,
-            title: "React",
-            style: "shadow-blue-600",
+            src: Hubspot,
+            title: "Hubspot",
+            style: "shadow-yellow-50",
           },
           {
             id: 5,
-            src: tailwind,
-            title: "Tailwind",
+            src: MEST,
+            title: "MEST",
             style: "shadow-sky-400",
           },
           {
             id: 6,
-            src: bootstrap,
-            title: "Bootstrap",
+            src: META,
+            title: "META",
             style: "shadow-purple-500",
           },
           {
             id: 7,
-            src: mui,
-            title: "Material UI",
+            src: Microsoft,
+            title: "Microsoft",
             style: "shadow-blue-500",
           },
           {
@@ -53,8 +61,8 @@ export default function ExpertsCompanies() {
           },
           {
             id: 9,
-            src: expressjs,
-            title: "Express Js",
+            src: Drupal,
+            title: "Drupal",
             style: "shadow-white",
           },
           {
@@ -75,7 +83,7 @@ export default function ExpertsCompanies() {
           Skills
         </p>
         <p className="py-6">
-          We have 
+          Get to learn and build your career with mentors that have worked at companies like
         </p>
       </div>
       <div className="grid grid-cols-2 sm:grid-cols-5 gap-8 text-center py-8 px-12 sm:px-0">
