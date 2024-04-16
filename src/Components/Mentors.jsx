@@ -10,7 +10,7 @@ export default function Mentors() {
         </h2>
         <a href="#"
             class="block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">
-            Go to insights
+            View All Mentors
         </a>
     </div>
 

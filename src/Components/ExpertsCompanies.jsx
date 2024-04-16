@@ -7,9 +7,10 @@ import MEST from '../Assets/MEST.jpg'
 import META from '../Assets/META.png'
 import Microsoft from '../Assets/Microsoft.jpg'
 import Drupal from '../Assets/390_drupal.jpg'
+import Adobe from '../Assets/Adobe-logo-removebg-preview.png'
+import Atlassian from '../Assets/atlassian-blue-logo.png'
 
 export default function ExpertsCompanies() {
-    const Experiencess = () => {
         const techs = [
           {
             id: 1,
@@ -55,8 +56,8 @@ export default function ExpertsCompanies() {
           },
           {
             id: 8,
-            src: nodejs,
-            title: "Node Js",
+            src: Atlassian,
+            title: "Atlassian",
             style: "shadow-green-500",
           },
           {
@@ -67,22 +68,21 @@ export default function ExpertsCompanies() {
           },
           {
             id: 10,
-            src: git,
-            title: "Git",
+            src: Adobe,
+            title: "Adobe",
             style: "shadow-orange-500",
           },
-        ];}
+        ]
+        
   return (
     <div
     name="experience"
-    className="bg-gradient-to-b from-gray-800 to-black w-full  h-screen"
+    className="bg-white w-full  h-screen"
   >
     <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white">
       <div>
-        <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-          Skills
-        </p>
-        <p className="py-6">
+       
+        <p className="py-6, text">
           Get to learn and build your career with mentors that have worked at companies like
         </p>
       </div>
