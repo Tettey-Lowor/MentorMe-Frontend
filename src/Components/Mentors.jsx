@@ -1,4 +1,7 @@
 import React from 'react'
+import Image1 from '../Assets/DAngelo.jpg'
+import Image2 from '../Assets/Hannan.jpg'
+import Image3 from '../Assets/rOFFY 2.jpg'
 
 export default function Mentors() {
   return (
@@ -16,7 +19,7 @@ export default function Mentors() {
 
     <div class="flex flex-wrap -mx-4">
         <div class="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
-            <img src="https://source.unsplash.com/Lki74Jj7H-U/400x300" alt="Card img" class="object-cover object-center w-full h-48" />
+            <img src={Image1} />
             <div class="flex flex-grow">
                 <div class="triangle"></div>
                 <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
@@ -28,8 +31,8 @@ export default function Mentors() {
                             Senior Software Engineer at Google
                         </a>
                         <p class="mb-4">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus corporis commodi
-                            aperiam, amet cupiditate?
+                           Lorem ipsum dolor sit amet , assumenda laborum officiis quasi aliquam hic doloribus repellat quas repellendus perferendis eaque provident facilis. 
+                           Available: Tuesday and Thursday
                         </p>
                     </div>
                     <div>
@@ -43,7 +46,7 @@ export default function Mentors() {
 
         <div class="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
             <img
-            src="https://source.unsplash.com/L9_6GOv40_E/400x300"
+            src={Image2}
             alt="Card img"
             class="object-cover object-center w-full h-48"
           />
@@ -52,11 +55,10 @@ export default function Mentors() {
                 <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                     <div>
                         <a href="#"
-                            class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Client-based
-                            Adoption</a>
+                            class="inline-block mb-4 text-2xl font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Hannan Abdul-Aziz</a>
                         <a href="#"
                             class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
-                            Old School Art
+                            Fullstacker Developer at META
                         </a>
                         <p class="mb-4">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus.
@@ -73,7 +75,7 @@ export default function Mentors() {
 
         <div class="w-full max-w-full mb-8 sm:w-1/2 px-4 lg:w-1/3 flex flex-col">
             <img
-            src="https://source.unsplash.com/7JX0-bfiuxQ/400x300"
+            src={Image3}
             alt="Card img"
             class="object-cover object-center w-full h-48"
           />

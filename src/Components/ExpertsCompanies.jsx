@@ -77,12 +77,12 @@ export default function ExpertsCompanies() {
   return (
     <div
     name="experience"
-    className="bg-white w-full  h-screen"
+    className="bg-indigo-900 w-full  h-screen"
   >
-    <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-black font-4xl">
+    <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-white font-4xl">
       <div>
        
-        <p className="py-6, text-black text-4xl font-bold mb-4 ">
+        <p className="py-6, text-white text-4xl font-bold mb-4 ">
           Get to learn and build your career with mentors that have worked with companies like
         </p>
       </div>

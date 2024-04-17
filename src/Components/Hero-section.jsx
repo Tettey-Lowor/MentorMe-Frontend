@@ -11,7 +11,7 @@ export default function HeroSection() {
                     class="text-4xl sm:text-5xl md:text-5xl lg:text-5xl xl:text-6xl text-center text-gray-800 dark:text-white font-black leading-10">
                     Supercharge your career with
                     <span class="text-violet-800 dark:text-violet-500">LongTerm Mentorship</span>
-                    designs.
+                    
                 </h1>
                 <p class="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 dark:text-gray-300 font-normal text-center text-xl">
                 Land your dream job, role, and company faster than ever with 1:1 long term mentorship..
