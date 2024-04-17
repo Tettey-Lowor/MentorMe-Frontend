@@ -5,12 +5,12 @@ export default function Mentors() {
     <>
     <section class="flex flex-col justify-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6">
     <div class="flex flex-wrap items-center justify-between mb-8">
-        <h2 class="mr-10 text-4xl font-bold leading-none md:text-5xl">
+        <h2 class="mr-10 text-4xl font-bold leading-none md:text-5xl mb-4">
         Choose your ideal mentor and get started with a brighter future
         </h2>
         <a href="#"
-            class="block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">
-            View All Mentors
+            class="block pb-4 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600 mr-4">
+            click here to View All Mentors
         </a>
     </div>
 
@@ -22,11 +22,10 @@ export default function Mentors() {
                 <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400 text">
                     <div>
                         <a href="#"
-                            class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Reliable
-                            Schemas</a>
+                            class="inline-block mb-4 text-2xl font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">D'Angelo Kwakye</a>
                         <a href="#"
                             class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
-                            What Zombies Can Teach You About Food
+                            Senior Software Engineer at Google
                         </a>
                         <p class="mb-4">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus corporis commodi

@@ -7,7 +7,7 @@ export default function Navbar() {
     <div class="flex items-center">
         <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Find a mentor</a>
         <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Dashboard</a>
-        <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Create Account/Sign In</a>
+        <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="#">Sign up</a>
     </div>
 </nav>
   )
