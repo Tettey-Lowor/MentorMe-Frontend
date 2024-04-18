@@ -8,7 +8,7 @@ export default function Navbar() {
     <div class="flex items-center">
         <Link class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" to={"/"}>Home</Link>
         <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="/AllMentorsPage">Find a mentor</a>
-        <Link class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" to={"/DashBoard"}>Dashboard</Link>
+        <Link class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" to={"/Dashboard"}>Dashboard</Link>
         <a class="text-sm px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="/MenteeRegisterPage">Sign up</a>
     </div>
 </nav>
