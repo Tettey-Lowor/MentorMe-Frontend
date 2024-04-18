@@ -11,7 +11,7 @@ export default function Mentors() {
         <h2 class="mr-10 text-4xl font-bold leading-none md:text-5xl mb-4">
         Choose your ideal mentor and get started with a brighter future
         </h2>
-        <a href="#"
+        <a href="/AllMentorsPage"
             class="block pb-4 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600 mr-4">
             click here to View All Mentors
         </a>
@@ -32,11 +32,11 @@ export default function Mentors() {
                         </a>
                         <p class="mb-4">
                            Lorem ipsum dolor sit amet , assumenda laborum officiis quasi aliquam hic doloribus repellat quas repellendus perferendis eaque provident facilis. 
-                           Available: Tuesday and Thursday
                         </p>
+                        <p className='font-bold'> Available: Tuesdays and Thursdays</p>
                     </div>
                     <div>
-                        <a href="#"
+                        <a href="/AllMentorsPage"
                             class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">Read
                             More</a>
                     </div>
@@ -49,20 +49,22 @@ export default function Mentors() {
             src={Image2}
             alt="Card img"
             class="object-cover object-center w-full h-48"
+            style={{height: "380px"}}
           />
             <div class="flex flex-grow">
                 <div class="triangle"></div>
                 <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                     <div>
-                        <a href="#"
+                        <a href="AllMentorsPage"
                             class="inline-block mb-4 text-2xl font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Hannan Abdul-Aziz</a>
-                        <a href="#"
+                        <a href=""
                             class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
                             Fullstacker Developer at META
                         </a>
                         <p class="mb-4">
                             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla delectus.
                         </p>
+                        <p className='font-bold'> Available: Tuesdays and Thursdays</p>
                     </div>
                     <div>
                         <a href="#"
@@ -78,24 +80,25 @@ export default function Mentors() {
             src={Image3}
             alt="Card img"
             class="object-cover object-center w-full h-48"
+            style={{height: "380px"}}
           />
             <div class="flex flex-grow">
                 <div class="triangle"></div>
                 <div class="flex flex-col justify-between px-4 py-6 bg-white border border-gray-400">
                     <div>
                         <a href="#"
-                            class="inline-block mb-4 text-xs font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Intellectual
-                            Capital</a>
-                        <a href="#"
-                            class="block mb-4 text-2xl font-black leading-tight hover:underline hover:text-blue-600">
-                            5 Things To Do About Rain
+                            class="inline-block mb-4 text-2xl font-bold capitalize border-b-2 border-blue-600 hover:text-blue-600">Rofiat Muritala</a>
+                        <a href="/AllMentorsPage"
+                            class="block mb-4 text-2xl font-black  leading-tight hover:underline hover:text-blue-600">
+                            Developer at Magento
                         </a>
                         <p class="mb-4">
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, neque. Eius, ea possimus.
                         </p>
+                        <p className='font-bold'> Available: Mondays and Thursdays</p>
                     </div>
                     <div>
-                        <a href="#"
+                        <a href="/AllMentorsPage"
                             class="inline-block pb-1 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600">Read
                             More </a>
                     </div>

@@ -69,7 +69,7 @@ export default function Steps() {
                         <h4 class="text-lg leading-6 font-semibold text-gray-900">Start your long-term relationship</h4>
                         <p class="mt-2 text-base leading-6 text-gray-500">
                             Well done!!! Get started with your mentorship in the right direction 
-                            <a href=""
+                            <a href="/MenteeRegisterPage"
     class="mb-4 focus:animate-none hover:animate-none inline-flex text-md font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white">
     <span class="ml-2 ">Start Now</span>
 </a>
