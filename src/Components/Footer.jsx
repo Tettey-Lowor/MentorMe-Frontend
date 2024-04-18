@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <div class="text-center bg-gray-800 mt-6">
     <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900">
-        <img src="https://www.svgrepo.com/show/499962/music.svg" class="h-12 mr-3 sm:h-9" alt="Landwind Logo"/>
+        <img src="https://www.svgrepo.com/show/499962/music.svg" class="h-12 mr-3 sm:h-9 mt-4" alt="Landwind Logo"/>
 		MENTORME
     </a>
 
