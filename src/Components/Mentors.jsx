@@ -11,7 +11,7 @@ export default function Mentors() {
         <h2 class="mr-10 text-4xl font-bold leading-none md:text-5xl mb-4">
         Choose your ideal mentor and get started with a brighter future
         </h2>
-        <a href="/AllMentorsPage"
+        <a href="/MenteeRegisterPage"
             class="block pb-4 mt-2 text-base font-black text-blue-600 uppercase border-b border-transparent hover:border-blue-600 mr-4">
             click here to View All Mentors
         </a>

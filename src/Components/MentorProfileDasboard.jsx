@@ -1,23 +1,30 @@
 import React from 'react'
+import SideBar from './SideBar'
+import image1 from '../Assets/Mentees/Premium Vector _ Software development, programming language, coding.jpg'
+import image2 from '../Assets/DAngelo.jpg'
 
-export default function MentorProfilleDanboard() {
+export default function MentorProfileDasboard() {
   return (
     <>
-    <section class="w-full overflow-hidden dark:bg-gray-900">
+    <div className="flex">
+    <SideBar/>
+    <section class="flex flex-col flex-1 overflow-y-auto dark:bg-gray-900">
     <div class="flex flex-col">
         
-        <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw5fHxjb3ZlcnxlbnwwfDB8fHwxNzEwNzQxNzY0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="User Cover"
-                class="w-full xl:h-[20rem] lg:h-[18rem] md:h-[16rem] sm:h-[14rem] xs:h-[11rem]" />
+      <div className='p-2'>
+      <img src={image1} alt="User Cover"
+                class="w-full xl:h-[20rem] rounded-lg lg:h-[18rem] md:h-[16rem] sm:h-[14rem] xs:h-[11rem]" />
 
+      </div>
         {/* <!-- Profile Image --> */}
         <div class="sm:w-[80%] xs:w-[90%] mx-auto flex">
-            <img src="https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0NzEyNjZ8MHwxfHNlYXJjaHw3fHxwZW9wbGV8ZW58MHwwfHx8MTcxMTExMTM4N3ww&ixlib=rb-4.0.3&q=80&w=1080" alt="User Profile"
+            <img src={image2} alt="User Profile"
                     class="rounded-md lg:w-[12rem] lg:h-[12rem] md:w-[10rem] md:h-[10rem] sm:w-[8rem] sm:h-[8rem] xs:w-[7rem] xs:h-[7rem] outline outline-2 outline-offset-2 outline-blue-500 relative lg:bottom-[5rem] sm:bottom-[4rem] xs:bottom-[3rem]" />
 
             {/* <!-- FullName --> */}
             <h1
                 class="w-full text-left my-4 sm:mx-4 xs:pl-4 text-gray-800 dark:text-white lg:text-4xl md:text-3xl sm:text-3xl xs:text-xl font-serif">
-                Samuel Abera</h1>
+                D'Angelo Kwakye</h1>
 
         </div>
 
@@ -38,11 +45,11 @@ export default function MentorProfilleDanboard() {
                         <dl class="text-gray-900 divide-y divide-gray-200 dark:text-white dark:divide-gray-700">
                             <div class="flex flex-col pb-3">
                                 <dt class="mb-1 text-gray-500 md:text-lg dark:text-gray-400">First Name</dt>
-                                <dd class="text-lg font-semibold">Samuel</dd>
+                                <dd class="text-lg font-semibold">D'Angelo </dd>
                             </div>
                             <div class="flex flex-col py-3">
                                 <dt class="mb-1 text-gray-500 md:text-lg dark:text-gray-400">Last Name</dt>
-                                <dd class="text-lg font-semibold">Abera</dd>
+                                <dd class="text-lg font-semibold">Kwakye</dd>
                             </div>
                             <div class="flex flex-col py-3">
                                 <dt class="mb-1 text-gray-500 md:text-lg dark:text-gray-400">Date Of Birth</dt>
@@ -67,7 +74,7 @@ export default function MentorProfilleDanboard() {
                             </div>
                             <div class="flex flex-col pt-3">
                                 <dt class="mb-1 text-gray-500 md:text-lg dark:text-gray-400">Email</dt>
-                                <dd class="text-lg font-semibold">samuelabera87@gmail.com</dd>
+                                <dd class="text-lg font-semibold">DAngelo87@gmail.com</dd>
                             </div>
 
                             <div class="flex flex-col pt-3">
@@ -87,7 +94,7 @@ export default function MentorProfilleDanboard() {
                     {/* <!-- Location --> */}
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d252230.02028974562!2d38.613328040215286!3d8.963479542403238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85cef5ab402d%3A0x8467b6b037a24d49!2sAddis%20Ababa!5e0!3m2!1sen!2set!4v1710567234587!5m2!1sen!2set"
-                        class="rounded-lg w-full h-full" style="border:0;" allowfullscreen="" loading="lazy"
+                        class="rounded-lg w-full h-full" style={{border:"0"}} allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
@@ -147,6 +154,7 @@ export default function MentorProfilleDanboard() {
         </div>
     </div>
 </section>
+</div>
 </>
   )
 }

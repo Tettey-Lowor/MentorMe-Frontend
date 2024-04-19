@@ -21,15 +21,26 @@ export default function AllMentorsPage() {
   return (
     <>
     <Navbar/>
+    
     <section class="flex flex-col justify-center items-center max-w-6xl min-h-screen px-4 py-10 mx-auto sm:px-6">
     <div class="text-2xl w-1/2  py-4 w-50 bg-gray-900 text-white text-center font-bold uppercase">
         MENTORS
     </div>
+
+    <form action="/search" class=" flex max-w-[480px] w-full px-4 mt-6">
+        <div class="relative">
+            <input type="text" name="q" class="w-full border h-12 shadow p-4 rounded-full dark:text-gray-800 dark:border-gray-700 dark:bg-gray-200" placeholder="search"/>
+            <button type="submit">
+               
+            </button>
+        </div>
+    </form>
+    
     <div class="grid grid-cols-3 gap-y-3 mt-4">
         
-    <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-l h-80 w-90" src={image1} alt="product image" />
+        <img class="w-[360px] h-[420px] p-8 rounded-t-l h-80 w-90" src={image1} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -62,9 +73,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg h-90 w-100" src={image2} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg h-90 w-100" src={image2} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -97,9 +108,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full  h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image3} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image3} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -132,9 +143,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full  h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image4} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image4} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -167,9 +178,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full  h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image7} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image7} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -202,9 +213,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image5} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image5} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -237,9 +248,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image6} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image6} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -271,13 +282,13 @@ export default function AllMentorsPage() {
         </div>
     </div>
 </div>
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image9} alt="product image"  style={{height: "380px"}} />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image9} alt="product image"  style={{height: "380px"}} />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Zeus Clinton, Fullstack Developer, Microsoft</h5>
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Hannan Abdul-Aziz, Fullstack Developer, Microsoft</h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
@@ -306,13 +317,13 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full  h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image8} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image8} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Rofiat Muritala, Technoical lead at Google, </h5>
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Rofiat Muritala, Technical lead at Google, </h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
             <div class="flex items-center space-x-1 rtl:space-x-reverse">
@@ -341,9 +352,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image14} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image14} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -376,9 +387,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image10} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image10} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -411,9 +422,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image11} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image11} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -446,9 +457,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px] max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image12} alt="product image" />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image12} alt="product image" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
@@ -481,9 +492,9 @@ export default function AllMentorsPage() {
     </div>
 </div>
 
-<div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+<div class="w-full h-[650px]  max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src={image13} alt="product image"   />
+        <img class="p-8 w-[360px] h-[420px] rounded-t-lg" src={image13} alt="product image"   />
     </a>
     <div class="px-5 pb-5">
         <a href="#">

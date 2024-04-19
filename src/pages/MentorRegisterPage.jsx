@@ -1,8 +1,10 @@
 import React from 'react'
+import Navbar from '../Components/Navbar'
 
 export default function MentorRegisterPage() {
   return (
-    
+    <>
+    <Navbar/>
   <div class="max-w-lg mx-auto  bg-white dark:bg-gray-800 rounded-lg shadow-md px-8 py-10 flex flex-col items-center">
   <h1 class="text-xl font-bold text-center text-gray-700 dark:text-gray-200 mb-8"> MENTORMATCH</h1>
   <form action="#" class="w-full flex flex-col gap-4">
@@ -45,8 +47,9 @@ export default function MentorRegisterPage() {
 
   <div class="mt-4 text-center">
     <span class="text-sm text-gray-500 dark:text-gray-300">Already have an account? </span>
-    <a href="#" class="text-blue-500 hover:text-blue-600">Login</a>
+    <a href="/MentorLogin" class="text-blue-500 hover:text-blue-600">Login</a>
   </div>
   </div>
+  </>
   )
 }
