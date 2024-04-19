@@ -3,87 +3,74 @@ import React from 'react'
 export default function DashBoard() {
   return (
  <>
- {/* //gist.github.com/dsursulino/369a0998c0fc8c25e19962bce729674f --> */}
+ <div class="flex h-screen bg-gray-100">
 
-    {/* <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" /> */}
-    
-    <div class="bg-orange-100 min-h-screen">
-      <div class="fixed bg-white text-blue-800 px-10 py-1 z-10 w-full">
-          <div class="flex items-center justify-between py-2 text-5x1">
-            <div class="font-bold text-blue-900 text-xl">Admin<span class="text-orange-600">Panel</span></div>
-            <div class="flex items-center text-gray-500">
-              <span class="material-icons-outlined p-2" >search</span>
-              <span class="material-icons-outlined p-2">notifications</span>
-              <div class="bg-center bg-cover bg-no-repeat rounded-full inline-block h-12 w-12 ml-2" style={{backgroundImage: "url(https://i.pinimg.com/564x/de/0f/3d/de0f3d06d2c6dbf29a888cf78e4c0323.jpg)"}}></div>
-            </div>
-        </div>
-      </div>
-      
-      <div class="flex flex-row pt-24 px-10 pb-4">
-        <div class="w-2/12 mr-6">
-          <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
-            <a href="" class="inline-block text-gray-600 hover:text-black my-4 w-full">
-              <span class="material-icons-outlined float-left pr-2">dashboard</span>
-              Home
-              <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
-            </a>
-            <a href="" class="inline-block text-gray-600 hover:text-black my-4 w-full">
-              <span class="material-icons-outlined float-left pr-2">tune</span>
-              Some menu item
-              <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
-            </a>
-            <a href="" class="inline-block text-gray-600 hover:text-black my-4 w-full">
-              <span class="material-icons-outlined float-left pr-2">file_copy</span>
-              Another menu item
-              <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
-            </a>
-          </div>
-    
-          <div class="bg-white rounded-xl shadow-lg mb-6 px-6 py-4">
-            <a href="" class="inline-block text-gray-600 hover:text-black my-4 w-full">
-              <span class="material-icons-outlined float-left pr-2">face</span>
-              Profile
-              <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
-            </a>
-            <a href="" class="inline-block text-gray-600 hover:text-black my-4 w-full">
-              <span class="material-icons-outlined float-left pr-2">settings</span>
-              Settings
-              <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
-            </a>
-            <a href="" class="inline-block text-gray-600 hover:text-black my-4 w-full">
-              <span class="material-icons-outlined float-left pr-2">power_settings_new</span>
-              Log out
-              <span class="material-icons-outlined float-right">keyboard_arrow_right</span>
-            </a>
-          </div>
-        </div>
-        
-        <div class="w-10/12">
-          <div class="flex flex-row">
-            <div class="bg-no-repeat bg-red-200 border border-red-300 rounded-xl w-7/12 mr-2 p-6" style={{backgroundImage: "url(https://previews.dropbox.com/p/thumb/AAvyFru8elv-S19NMGkQcztLLpDd6Y6VVVMqKhwISfNEpqV59iR5sJaPD4VTrz8ExV7WU9ryYPIUW8Gk2JmEm03OLBE2zAeQ3i7sjFx80O-7skVlsmlm0qRT0n7z9t07jU_E9KafA9l4rz68MsaZPazbDKBdcvEEEQPPc3TmZDsIhes1U-Z0YsH0uc2RSqEb0b83A1GNRo86e-8TbEoNqyX0gxBG-14Tawn0sZWLo5Iv96X-x10kVauME-Mc9HGS5G4h_26P2oHhiZ3SEgj6jW0KlEnsh2H_yTego0grbhdcN1Yjd_rLpyHUt5XhXHJwoqyJ_ylwvZD9-dRLgi_fM_7j/p.png?fv_content=true&size_mode=5); background-position: 90% center;"}}>
-              <p class="text-5xl text-indigo-900">Welcome <br/><strong>Lorem Ipsum</strong></p>
-              <span class="bg-red-300 text-xl text-white inline-block rounded-full mt-12 px-8 py-2"><strong>01:51</strong></span>
-            </div>
-    
-            <div class="bg-no-repeat bg-orange-200 border border-orange-300 rounded-xl w-5/12 ml-2 p-6">
-              <p class="text-5xl text-indigo-900">Inbox <br/><strong>23</strong></p>
-              <a href="" class="bg-orange-300 text-xl text-white underline hover:no-underline inline-block rounded-full mt-12 px-8 py-2"><strong>See messages</strong></a>
-            </div>
-          </div>
-          <div class="flex flex-row h-64 mt-6">
-            <div class="bg-white rounded-xl shadow-lg px-6 py-4 w-4/12">
-              a
-            </div>
-            <div class="bg-white rounded-xl shadow-lg mx-6 px-6 py-4 w-4/12">
-              b
-            </div>
-            <div class="bg-white rounded-xl shadow-lg px-6 py-4 w-4/12">
-              c
-            </div>
-          </div>
-        </div>
-      </div>
+<div class="hidden md:flex flex-col w-64 bg-gray-800">
+    <div class="flex items-center justify-center h-16 bg-gray-900">
+        <span class="text-white font-bold uppercase">Sidebar</span>
     </div>
+    <div class="flex flex-col flex-1 overflow-y-auto">
+        <nav class="flex-1 px-2 py-4 bg-gray-800">
+            <a href="#" class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                Dashboard
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M6 18L18 6M6 6l12 12" />
+                </svg>
+                Messages
+            </a>
+            <a href="#" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+                Settings
+            </a>
+        </nav>
+    </div>
+</div>
+
+
+<div class="flex flex-col flex-1 overflow-y-auto">
+    <div class="flex items-center justify-between h-16 bg-white border-b border-gray-200">
+        <div class="flex items-center px-4">
+            <button class="text-gray-500 focus:outline-none focus:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+            <input class="mx-4 w-full border rounded-md px-4 py-2" type="text" placeholder="Search"/>
+        </div>
+        <div class="flex items-center pr-4">
+
+            <button
+                class="flex items-center text-gray-500 hover:text-gray-700 focus:outline-none focus:text-gray-700">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 19l-7-7 7-7m5 14l7-7-7-7" />
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div class="p-4">
+        <h1 class="text-2xl font-bold">Welcome to my dashboard!</h1>
+        <p class="mt-2 text-gray-600">This is an example dashboard using Tailwind CSS.</p>
+    </div>
+</div>
+
+</div>
     </>
   )
 }
