@@ -5,7 +5,7 @@ export default function Footer() {
     <div class="text-center bg-gray-800 mt-8">
     <a href="#" class="flex items-center justify-center mb-5 text-2xl font-semibold text-gray-900 mt-6 py-4  text-white">
         
-		MENTORME
+		MENTORMATCH
     </a>
 
     <span class="block text-sm text-center text-gray-500">© 2024 MENTORME™. All Rights Reserved.
