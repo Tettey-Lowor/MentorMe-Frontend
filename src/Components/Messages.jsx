@@ -10,7 +10,7 @@ export default function Messages() {
 
 <div
     class="md:text-4xl sm:text-3xl xs:text-2xl text-center font-serif font-extrabold border-b-2 dark:border-blue-500 rounded-b-md mb-6 border-yellow-500 text-white dark:text-black">
-    Notifications</div>
+    Message Notifications</div>
 
 {/* <!-- 1 --> */}
 <div

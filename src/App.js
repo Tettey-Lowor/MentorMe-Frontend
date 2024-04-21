@@ -11,6 +11,11 @@ import MenteesDetails from "./Components/MenteesDetails";
 import Calender from "./Components/Calender";
 import MentorRegisterPage from "./pages/MentorRegisterPage";
 import MentorLogin from "./pages/MentorLogin";
+import MentorProfileDetails from "./pages/MentorProfileDetails";
+import InboxPage from "./pages/inboxPage";
+import Messages from "./Components/Messages";
+import SettingsPage from "./pages/SettingsPage";
+import FirstDashBoard from "./pages/FirstDashBoard";
 
 const router = createBrowserRouter([
   {path: "/", element: <Homepage/>},
@@ -23,7 +28,12 @@ const router = createBrowserRouter([
   {path: "/MenteesDetails", element: <MenteesDetails/>},
   {path: "/Calender", element: <Calender/>},
   {path: "/MentorRegisterPage", element: <MentorRegisterPage/>},
-  {path: "/MentorLogin", element: <MentorLogin/>}
+  {path: "/MentorLogin", element: <MentorLogin/>},
+  {path: "/MentorProfileDetails", element: <MentorProfileDetails/>},
+  {path: "/InboxPage", element: <InboxPage/>},
+  {path: "/Messages", element: <Messages/>},
+  {path: "/SettingsPage", element: <SettingsPage/>},
+  {path: "/FirstDashBoard", element: <FirstDashBoard/>}
 
 
 
