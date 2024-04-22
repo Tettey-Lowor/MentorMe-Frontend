@@ -9,7 +9,7 @@ export default function Footer() {
     </a>
 
     <span class="block text-sm text-center text-gray-500">© 2024 MENTORME™. All Rights Reserved.
-		Built with 
+		Built with  
         <a href="https://flowbite.com"
 			class="text-purple-600 hover:underline">React</a> and 
             <a
