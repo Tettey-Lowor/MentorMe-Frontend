@@ -4,9 +4,9 @@ import SideBar from './SideBar'
 export default function Messages() {
   return (
 
-  <div className='flex'>
+  <div className='flex '>
     <SideBar/>
-      <div class="w-full h-full py-10 flex flex-col gap-4 items-center justify-center bg-gray-900 dark:bg-white">
+      <div class="w-full max-h-full pb-60 py-10 flex flex-col gap-4 items-center justify-center bg-gray-900 dark:bg-white">
 
 <div
     class="md:text-4xl sm:text-3xl xs:text-2xl text-center font-serif font-extrabold border-b-2 dark:border-blue-500 rounded-b-md mb-6 border-yellow-500 text-white dark:text-black">
