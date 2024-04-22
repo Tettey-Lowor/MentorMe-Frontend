@@ -7,6 +7,7 @@ import { TbListDetails } from "react-icons/tb";
 import { AiFillSchedule } from "react-icons/ai";
 import { IoHome } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
+import { IoLogOut } from "react-icons/io5";
 
 export default function SideBar() {
   return (
@@ -16,7 +17,7 @@ export default function SideBar() {
     </div> */}
      <div class="flex flex-wrap items-center justify-center gap-2 mt-10 mb-6">
     <div class="h-10 w-10">
-        <img class="h-full w-full rounded-full object-cover object-center ring ring-white" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="" />
+        <img class="h-full w-full rounded-full object-cover object-center ring ring-white" src={image1} alt="" />
         
  
     </div>
@@ -81,6 +82,10 @@ export default function SideBar() {
             <a href="/Calender" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
             <AiFillSchedule className='mr-2' />
                 Schedule
+            </a>
+            <a href="/LogoutPage" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
+            <IoLogOut className='mr-2' /> 
+                Logout
             </a>
             <a href="/SettingsPage" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
             <IoSettings className='mr-2' />

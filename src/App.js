@@ -16,6 +16,10 @@ import InboxPage from "./pages/inboxPage";
 import Messages from "./Components/Messages";
 import SettingsPage from "./pages/SettingsPage";
 import FirstDashBoard from "./pages/FirstDashBoard";
+import SuccesMessage from "./pages/SuccesMessage";
+import CVSample from "./pages/CVSample";
+import LogoutPage from "./pages/LogoutPage";
+
 
 const router = createBrowserRouter([
   {path: "/", element: <Homepage/>},
@@ -33,7 +37,11 @@ const router = createBrowserRouter([
   {path: "/InboxPage", element: <InboxPage/>},
   {path: "/Messages", element: <Messages/>},
   {path: "/SettingsPage", element: <SettingsPage/>},
-  {path: "/FirstDashBoard", element: <FirstDashBoard/>}
+  {path: "/FirstDashBoard", element: <FirstDashBoard/>},
+  {path: "/SuccesMessage", element: <SuccesMessage/>},
+  {path: "/CVSample", element: <CVSample/>},
+  {path: "/LogoutPage", element: <LogoutPage/>}
+  
 
 
 
