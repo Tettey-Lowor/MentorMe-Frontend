@@ -21,10 +21,7 @@ export default function MentorRegisterPage() {
       <input type="text" id="lastName" name="lastName" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
     </div>
 
-    <div class="flex items-start flex-col justify-start">
-      <label for="username" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Username:</label>
-      <input type="text" id="username" name="username" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
-    </div>
+    
 
     <div class="flex items-start flex-col justify-start">
       <label for="email" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Email:</label>
@@ -32,17 +29,16 @@ export default function MentorRegisterPage() {
     </div>
 
     <div class="flex items-start flex-col justify-start">
-      <label for="password" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Password:</label>
-      <input type="password" id="password" name="password" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
+      <label for="confirmPassword" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Password</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
     </div>
 
+    
+    
+
     <div class="flex items-start flex-col justify-start">
-      <label for="confirmPassword" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Confirm Password:</label>
-      <input type="password" id="confirmPassword" name="confirmPassword" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
-    </div>
-    <div class="flex items-start flex-col justify-start">
-      <label for="confirmPassword" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Please tell your specilization/Expertise. eg. Frontend Development</label>
-      <input type="password" id="confirmPassword" name="confirmPassword" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
+      <label for="email" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Please tell your specilization/Expertise. eg. Frontend Development</label>
+      <input type="email" id="email" name="email" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
     </div>
 
     <Link to="/FirstDashBoard"><button type="submit" class="bg-blue-500 w-full hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md shadow-sm">Register</button></Link>

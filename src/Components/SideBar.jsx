@@ -8,6 +8,7 @@ import { AiFillSchedule } from "react-icons/ai";
 import { IoHome } from "react-icons/io5";
 import { CgProfile } from "react-icons/cg";
 import { IoLogOut } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 
 export default function SideBar() {
   return (
@@ -48,10 +49,12 @@ export default function SideBar() {
                 </svg>
                 Dashboard
             </a>
-            <a href="/MentorProfileDasBoard" class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700">
-            <CgProfile className='mr-2' />
-                Profile
-            </a>
+            
+            <Link to='/MentorProfileDasBoard' class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700" ><CgProfile className='mr-2' />
+                Profile</Link>
+        
+            
+            
 
             
             <a href="/Messages" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">

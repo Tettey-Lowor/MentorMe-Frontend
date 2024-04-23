@@ -50,7 +50,7 @@ export default function FirstDashBoard() {
                    Profile
                </a>
    
-               <a href="/Mesaages" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
+               <a href="/Messages" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
                    
                    <SiGooglemessages className='mr-2' />
                    Messages

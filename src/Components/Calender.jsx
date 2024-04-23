@@ -28,7 +28,9 @@ export default function Calender() {
   <div>
       <span class="text-gray-900 relative inline-block date uppercase font-medium tracking-widest">Mondays</span>
       <div class="flex mb-2">
+     
         <div class="w-2/12">
+          
           <span class="text-sm text-gray-600 block">8:00am</span>
           <span class="text-sm text-gray-600 block">8:15am</span>
         </div>
@@ -36,7 +38,8 @@ export default function Calender() {
           <span class="bg-blue-400 h-2 w-2 rounded-full block mt-2"></span>
         </div>
         <div class="w-9/12">
-          <span class="text-sm font-semibold block">Mock Interview</span>
+          <span class="text-sm font-semibold block">Mock Interview with Abdul-Aziz</span>
+          <span class="text-sm font-semibold block">Email</span>
           <span class="text-sm">Zoom ID: 1134 11 1134</span>
         </div>
       </div>
