@@ -5,10 +5,14 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 import image1 from '../Assets/Hannan.jpg'
-import image2 from '../Assets/img.mentors/Mentorship1.webp'
-import image3 from '../Assets/img.mentors/Mentorship2.jpg'
-import image4 from '../Assets/img.mentors/Mentorship2.jpg'
 
+// import image3 from '../Assets/img.mentors/The Visualization of Forces Through Simulation.jpg'
+
+import image5 from '../Assets/img.mentors/Mentorship5.jpg'
+import image6 from '../Assets/img.mentors/Mentorship6.jpg'
+import image7 from '../Assets/img.mentors/Mentorship7.jpg'
+// import image8 from '../Assets/img.mentors/Mentorship8.jpg'
+import image9 from '../Assets/img.mentors/Mentorship9.jpg'
 
 
 
@@ -21,13 +25,13 @@ export default function HeroSection() {
      
      <div className="mx-auto w-full flex flex-col items-center py-12 sm:py-24">
        <div className="w-11/12  lg:flex justify-center items-center flex-col mb-5 sm:mb-10">
-         <h1 className="text-2xl sm:text-5xl md:text-5xl lg:text-3xl xl:text-5xl text-center text-gray-200 dark:text-white font-black leading-10 pt-10">
+         <h1 className="text-4xl sm:text-5xl md:text-5xl lg:text-4xl xl:text-5xl text-center text-gray-200 dark:text-white font-black leading-10 pt-10">
            Supercharge your career with
            <br/><span className="text-violet-500 dark:text-violet-500">
              LongTerm Mentorship
            </span>
          </h1>
-         <p className="mt-5 sm:mt-10 lg:w-10/12 text-gray-600 dark:text-gray-300 font-normal text-center text-xl">
+         <p className="mt-5 sm:mt-10 lg:w-10/12 text-white dark:text-gray-300 font-normal text-center text-2xl">
            Land your dream job, role, and company faster than ever with 1:1
            long term mentorship..
          </p>
@@ -61,14 +65,14 @@ export default function HeroSection() {
         className="relative"
       >
         <SwiperSlide><img src={image1}/></SwiperSlide>
-        <SwiperSlide>{image2}</SwiperSlide>
-        <SwiperSlide>{image3}</SwiperSlide>
-        <SwiperSlide>{image4}</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide><img src='https://images.unsplash.com/photo-1522881193457-37ae97c905bf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/></SwiperSlide>
+        <SwiperSlide><img src='https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'/></SwiperSlide>
+        <SwiperSlide><img src='https://images.unsplash.com/photo-1620841713108-18ad2b52d15c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' /></SwiperSlide>
+        <SwiperSlide><img src={image5} /></SwiperSlide>
+        <SwiperSlide><img src={image6} /></SwiperSlide>
+        <SwiperSlide><img src={image7} /></SwiperSlide>
+        <SwiperSlide><img src='https://images.unsplash.com/photo-1561346745-5db62ae43861?q=80&w=1883&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D' /></SwiperSlide>
+        <SwiperSlide><img src={image9} /></SwiperSlide>
       </Swiper>
       </div>
       
