@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import image1 from '../Assets/img.mentors/albert-dera-ILip77SbmOE-unsplash.jpg'
 import image2 from '../Assets/img.mentors/cassandra-hamer-rKV-LcPEVg4-unsplash.jpg'
 import image3 from '../Assets/img.mentors/dollar-gill-F80ViIoUuKA-unsplash.jpg'
@@ -19,6 +19,10 @@ import { Link } from 'react-router-dom'
 
 
 export default function AllMentorsPage() {
+
+    const [nameFilter, setNameFilter] = useState("");
+
+    const nameMatch = nameFilter === "" 
   return (
     <>
     <Navbar/>
