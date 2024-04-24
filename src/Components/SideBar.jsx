@@ -37,10 +37,9 @@ export default function SideBar() {
     <div class="flex flex-col flex-1 overflow-y-auto">
         <nav class="flex-1 px-2 py-4 bg-gray-800">
 
-        <a href="/" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
-            <IoHome className='mr-2'  />
-                Home
-            </a>
+       <Link to='/' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">  <IoHome className='mr-2'  />
+                Home</Link> 
+                
             <a href="/DashBoard" class="flex items-center px-4 py-2 text-gray-100 hover:bg-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -56,16 +55,9 @@ export default function SideBar() {
             
             
 
+            <Link to='/Messages' className='flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700'> <SiGooglemessages className='mr-2' />
+                Messages</Link>
             
-            <a href="/Messages" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
-                {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M6 18L18 6M6 6l12 12" />
-                </svg> */}
-                <SiGooglemessages className='mr-2' />
-                Messages
-            </a>
             {/* <a href="/MentorProfileDasboard" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
                     stroke="currentColor">
@@ -74,26 +66,19 @@ export default function SideBar() {
                 </svg>
                 Profile
             </a> */}
-            <a href="/MenteesDetails" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
-                {/* <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24"
-                    stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                        d="M6 18L18 6M6 6l12 12" />
-                </svg> */}<TbListDetails className='mr-2' />
-                Mentee Details
-            </a>
-            <a href="/Calender" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
-            <AiFillSchedule className='mr-2' />
+            <Link to='/MenteesDetails' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700'><TbListDetails className='mr-2" >
+                Mentee Details </Link> 
+
+            < Link to='/Calender' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"> <AiFillSchedule className='mr-2' />
                 Schedule
-            </a>
-            <a href="/LogoutPage" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
-            <IoLogOut className='mr-2' /> 
-                Logout
-            </a>
-            <a href="/SettingsPage" class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700">
-            <IoSettings className='mr-2' />
-                Settings
-            </a>
+            </Link>
+
+           <Link to='/LogoutPage' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"><IoLogOut className='mr-2' /> 
+                Logout</Link>
+
+                <Link to='/SettingsPage' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"> <IoSettings className='mr-2' />
+                Settings</Link> 
+            
            
         </nav>
     </div>

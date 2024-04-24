@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
+import { Link } from 'react-router-dom'
 
 export default function BookAppointmentPage () {
   return (
@@ -74,11 +75,12 @@ export default function BookAppointmentPage () {
                 id="message" rows="4" placeholder="Enter any additional information"></textarea>
         </div>
         <div class="flex items-center justify-center mb-4">
-            <button
+            <Link to='/'><button
                 class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-gray-800 focus:outline-none focus:shadow-outline"
                 type="submit">
                 Book Appointment
             </button>
+            </Link>
         </div>
 
     </form>

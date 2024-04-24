@@ -25,8 +25,8 @@ export default function Navbar() {
         <div
             class="absolute left-0 w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300">
             <div class="py-1">
-                <a href="MentorRegisterPage" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentor</a>
-                <a href="/MenteeRegisterPage" class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentee</a>
+               <Link to='MentorRegisterPage' class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentor</Link> 
+                <Link to='/MenteeRegisterPage' class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentee</Link>
                
             </div>
         </div>

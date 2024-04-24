@@ -114,7 +114,7 @@ export default function MenteesDetails() {
                 </span>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
+                Tuesdays
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 jane.cooper@example.com
@@ -156,7 +156,7 @@ export default function MenteesDetails() {
                 </span>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
+                Fridays
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 brand@email.com
@@ -198,7 +198,7 @@ export default function MenteesDetails() {
                 </span>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
+                Wednesdays
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 jane.cooper@example.com
@@ -238,7 +238,7 @@ export default function MenteesDetails() {
                 </span>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
+                Mondays
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 jane.cooper@example.com
@@ -277,7 +277,7 @@ export default function MenteesDetails() {
                 </span>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
+                Mondays
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 jane.cooper@example.com
@@ -316,7 +316,7 @@ export default function MenteesDetails() {
                 </span>
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
-                Admin
+                Tuesdays
             </td>
             <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                 jane.cooper@example.com

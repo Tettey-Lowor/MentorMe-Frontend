@@ -19,6 +19,7 @@ import FirstDashBoard from "./pages/FirstDashBoard";
 import SuccesMessage from "./pages/SuccesMessage";
 import CVSample from "./pages/CVSample";
 import LogoutPage from "./pages/LogoutPage";
+import MentorsBlog from "./Components/MentorsBlog";
 
 
 const router = createBrowserRouter([
@@ -40,7 +41,8 @@ const router = createBrowserRouter([
   {path: "/FirstDashBoard", element: <FirstDashBoard/>},
   {path: "/SuccesMessage", element: <SuccesMessage/>},
   {path: "/CVSample", element: <CVSample/>},
-  {path: "/LogoutPage", element: <LogoutPage/>}
+  {path: "/LogoutPage", element: <LogoutPage/>},
+  {path: "/MentorsBlog", element: <MentorsBlog/>}
   
 
 

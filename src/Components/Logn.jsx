@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { Link } from 'react-router-dom'
 
 export default function LoginPage() {
   return (
@@ -23,7 +24,7 @@ export default function LoginPage() {
 
         <p class="text-center text-lg">
             No account?
-            <a href="/MenteeRegisterPage" class="font-medium text-indigo-500 underline-offset-4 hover:underline">Create One</a>
+           <Link to='/MenteeRegisterPage' class="font-medium text-indigo-500 underline-offset-4 hover:underline" >Create One</Link> 
         </p>
     </section>
 </main>

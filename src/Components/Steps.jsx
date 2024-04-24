@@ -30,10 +30,9 @@ export default function Steps() {
                         <p class="mt-2 text-base leading-6 text-gray-500 mb-4">
                             Browse through a list of mentors.
                         </p>
-                        <a href="/MenteeRegisterPage"
-    class="mb-4 animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white">
-    <span class="ml-2 ">Find a mentor</span>
-</a>
+                       <Link to='/MenteeRegisterPage' class="mb-4 animate-bounce focus:animate-none hover:animate-none inline-flex text-md font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white">Find a mentor  <span class="ml-2 "></span></Link> 
+   
+
                     </div>
                 </div>
             </li>
@@ -50,7 +49,7 @@ export default function Steps() {
                         <p class="mt-2 text-base leading-6 text-gray-500">
                             Go through your mentor's Schedule and book your first meeting.
                         </p>
-                        <a href="/BookAppointmentPage"
+                        <a href="/MenteeRegisterPage"
     class="mb-4  focus:animate-none hover:animate-none inline-flex text-md font-medium bg-indigo-900 mt-3 px-4 py-2 rounded-lg tracking-wide text-white">
     <span class="ml-2 ">Book a session </span>
 </a>

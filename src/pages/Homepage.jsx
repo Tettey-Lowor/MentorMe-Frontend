@@ -7,6 +7,7 @@ import ExpertsCompanies from '../Components/ExpertsCompanies';
 import Steps from '../Components/Steps';
 import Footer from '../Components/Footer';
 import Testimonial from '../Components/Testimonial';
+import MentorsBlog from '../Components/MentorsBlog';
 
 
 
@@ -20,6 +21,7 @@ export default function Homepage() {
     <ExpertsCompanies/>
     <Testimonial/>
     <Steps/>
+    <MentorsBlog/>
     <Footer/>
     </>
   )
