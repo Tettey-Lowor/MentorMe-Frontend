@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../Components/Navbar'
 import image1 from '../Assets/img.mentors/albert-dera-ILip77SbmOE-unsplash.jpg'
+import { Link } from 'react-router-dom'
 
 export default function MentorProfileDetails() {
   return (
@@ -18,7 +19,7 @@ export default function MentorProfileDetails() {
                         <h1 class="text-xl font-bold">Alhaji Abass</h1>
                         <p class="text-gray-700">Software Developer</p>
                         <div class="mt-6 flex flex-wrap gap-4 justify-center">
-                            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Contact</a>
+                            <Link to='/ContactForm' class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Contact</Link>
                             <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Resume</a>
                             <a href="/BookAppointmentPage" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Book Now</a>
                         </div>

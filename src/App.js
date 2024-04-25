@@ -20,6 +20,7 @@ import SuccesMessage from "./pages/SuccesMessage";
 import CVSample from "./pages/CVSample";
 import LogoutPage from "./pages/LogoutPage";
 import MentorsBlog from "./Components/MentorsBlog";
+import ContactForm from "./pages/ContactForm";
 
 
 const router = createBrowserRouter([
@@ -42,7 +43,10 @@ const router = createBrowserRouter([
   {path: "/SuccesMessage", element: <SuccesMessage/>},
   {path: "/CVSample", element: <CVSample/>},
   {path: "/LogoutPage", element: <LogoutPage/>},
-  {path: "/MentorsBlog", element: <MentorsBlog/>}
+  {path: "/MentorsBlog", element: <MentorsBlog/>},
+  {path: "/ContactForm", element: <ContactForm/>},
+
+
   
 
 

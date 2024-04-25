@@ -23,7 +23,7 @@ export default function HeroSection() {
   return (
     <>
     {/* <Navbar/> */}
-    <div className="w-full flex min-h-screen relative">
+    <div className="relative isolate overflow-hidden">
       <div className=" bg-black/50 flex h-full w-full absolute top-0 left-0 z-40">
      
      <div className="mx-auto w-full flex flex-col items-center py-12 sm:py-24">
