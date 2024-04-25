@@ -20,7 +20,7 @@ export default function MentorProfileDetails() {
                         <p class="text-gray-700">Software Developer</p>
                         <div class="mt-6 flex flex-wrap gap-4 justify-center">
                             <Link to='/ContactForm' class="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded">Contact</Link>
-                            <a href="#" class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Resume</a>
+                            <Link to='/MentorsResume' class="bg-gray-300 hover:bg-gray-400 text-gray-700 py-2 px-4 rounded">Resume</Link>
                             <a href="/BookAppointmentPage" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Book Now</a>
                         </div>
                     </div>

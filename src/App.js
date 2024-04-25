@@ -21,6 +21,7 @@ import CVSample from "./pages/CVSample";
 import LogoutPage from "./pages/LogoutPage";
 import MentorsBlog from "./Components/MentorsBlog";
 import ContactForm from "./pages/ContactForm";
+import MentorsResume from "./pages/MentorsResume";
 
 
 const router = createBrowserRouter([
@@ -45,6 +46,7 @@ const router = createBrowserRouter([
   {path: "/LogoutPage", element: <LogoutPage/>},
   {path: "/MentorsBlog", element: <MentorsBlog/>},
   {path: "/ContactForm", element: <ContactForm/>},
+  {path: "/MentorsResume", element: <MentorsResume/>}
 
 
   
