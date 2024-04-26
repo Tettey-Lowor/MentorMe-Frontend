@@ -41,6 +41,11 @@ export default function MentorRegisterPage() {
       <input type="email" id="email" name="email" class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
     </div>
 
+    <div class="flex items-start flex-col justify-start">
+      <label for="availability" class="text-sm text-gray-700 dark:text-gray-200 mr-2">Please specify your availability to guide your mentees in booking appointments. </label>
+      <input type="email" id="email" name="eg. Tuesdays and Thursdays 8-12pm" placeholder='"eg. Tuesdays and Thursdays 8-12pm"' class="w-full px-3 dark:text-gray-200 dark:bg-gray-900 py-2 rounded-md border border-gray-300 dark:border-gray-700 focus:outline-none focus:ring-1 focus:ring-blue-500"/>
+    </div>
+
     <Link to="/FirstDashBoard"><button type="submit" class="bg-blue-500 w-full hover:bg-blue-600 text-white font-medium py-2 px-4 rounded-md shadow-sm">Register</button></Link>
   </form>
 

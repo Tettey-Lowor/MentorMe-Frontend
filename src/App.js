@@ -24,6 +24,7 @@ import ContactForm from "./pages/ContactForm";
 import MentorsResume from "./pages/MentorsResume";
 import AppointmentSuccessAlert from "./pages/AppointmentSuccessAlert";
 import Pricing from "./Components/pricing";
+import PasswordReset from "./pages/PasswordReset";
 
 
 const router = createBrowserRouter([
@@ -51,6 +52,7 @@ const router = createBrowserRouter([
   {path: "/MentorsResume", element: <MentorsResume/>},
   {path: "/AppointmentSuccessAlert", element: <AppointmentSuccessAlert/>},
   {path: "/Pricing", element: <Pricing/>},
+  {path: "/PasswordReset", element: <PasswordReset/>},
 
 
 

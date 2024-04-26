@@ -20,9 +20,9 @@ export default function Pricing() {
             <span class="text-3xl sm:text-4xl font-bold text-white">$19</span> / Month
           </p>
           <ul class="list-none list-inside mb-6 text-center text-gray-300">
-            <li class="font-bold text-orange-600">1 Website</li>
+            <li class="font-bold text-orange-600">1-on-1</li>
             <li>Custom Domain</li>
-            <li>Basic SEO</li>
+            <li>Beginners</li>
             <li>Limited Support</li>
           </ul>
           <Link to='/MenteeRegisterPage'  class="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
@@ -35,9 +35,9 @@ export default function Pricing() {
             <span class="text-3xl sm:text-4xl font-bold text-white">$49</span> / Month
           </p>
           <ul class="list-none list-inside mb-6 text-center text-gray-300">
-            <li class="font-bold text-orange-600">3 Websites</li>
+            <li class="font-bold text-orange-600">Group Mentorship</li>
             <li>Custom Domain &amp; Subdomain</li>
-            <li>Advanced SEO</li>
+            <li>Advanced</li>
             <li>24/7 Support</li>
           </ul>
           <Link to='/MenteeRegisterPage'  class="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
@@ -50,9 +50,9 @@ export default function Pricing() {
             <span class="text-3xl sm:text-4xl font-bold text-white">$99</span> / Month
           </p>
           <ul class="list-none list-inside mb-6 text-center text-gray-300">
-            <li class="font-bold text-orange-600">Unlimited Websites</li>
+            <li class="font-bold text-orange-600">Meet with Snr Devs</li>
             <li>Custom Domain &amp; Subdomain</li>
-            <li>Enterprise SEO</li>
+            <li>FullStack Developers</li>
             <li>Premium Support</li>
           </ul>
           <Link to='/MenteeRegisterPage'  class="lemonsqueezy-button relative flex h-9 w-full items-center justify-center px-4 before:absolute before:inset-0 before:rounded-full before:bg-white before:transition before:duration-300 hover:before:scale-105 active:duration-75 active:before:scale-95 sm:w-max"
