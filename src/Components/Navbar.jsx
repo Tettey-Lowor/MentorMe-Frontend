@@ -8,7 +8,8 @@ export default function Navbar() {
     <a class="font-bolder text-xl tracking-tight" href="/Homepage"><img src={image1} className='h-14 w-full'/></a>
     <div class="flex items-center">
         <Link class="text-l px-4 py-2 leading-none rounded-full hover:bg-gray-700" to={"/"}>Home</Link>
-        <a class="text-l px-4 py-2 leading-none rounded-full hover:bg-gray-700" href="/AllMentorsPage">Find a mentor</a>
+        
+        <Link to='/AllMentorsPage' class="text-l px-4 py-2 leading-none rounded-full hover:bg-gray-700">Find a mentor</Link>
         
 
         <div class="relative inline-block text-left">
@@ -26,7 +27,7 @@ export default function Navbar() {
         <div
             class="absolute left-0 w-40 mt-1 origin-top-left bg-white divide-y divide-gray-100 rounded-md shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition duration-300 z-10 ">
             <div class="py-1">
-               <Link to='MentorRegisterPage' class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentor</Link> 
+               <Link to='/MentorRegisterPage' class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentor</Link> 
                 <Link to='/MenteeRegisterPage' class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">As a Mentee</Link>
                
             </div>

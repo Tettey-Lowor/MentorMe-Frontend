@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 
 export default function SideBar() {
   return (
-    <div class="hidden md:flex flex-col w-64 bg-gray-800">
+    <div class="hidden md:flex flex-col w-64 bg-gray-800 pb-32">
     {/* <div class="flex items-center justify-center h-16 bg-gray-900">
         <span class="text-white font-bold uppercase">Sidebar</span>
     </div> */}
@@ -67,7 +67,7 @@ export default function SideBar() {
                 Profile
             </a> */}
             <Link to='/MenteesDetails' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700'><TbListDetails className='mr-2" >
-                Mentee Details </Link> 
+            <TbListDetails className= 'mr-2'/>  Mentee Details </Link> 
 
             < Link to='/Calender' class="flex items-center px-4 py-2 mt-2 text-gray-100 hover:bg-gray-700"> <AiFillSchedule className='mr-2' />
                 Schedule

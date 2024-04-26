@@ -70,7 +70,7 @@ export default function AllMentorsPage() {
             <div class="px-5 pb-5">
               <a href="#">
                 <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">
-                  Alhaji Abass, Software Development Engineer t
+                  Alhaji Abass, Software Development Engineer 
                 </h5>
               </a>
               <div class="flex items-center mt-2.5 mb-5">
@@ -126,7 +126,7 @@ export default function AllMentorsPage() {
                 </span>
               </div>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-gray-900 dark:text-white">
+                <span class="text-2xl font-bold text-gray-900 dark:text-white mr-2">
                   7yrs Experience with Frontend
                 </span>
                 <Link
@@ -206,7 +206,7 @@ export default function AllMentorsPage() {
                 </span>
               </div>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-gray-900 dark:text-white">
+                <span class="text-2xl font-bold text-gray-900 dark:text-white mr-2">
                   1 mentee and 60+ mentoring minutes
                 </span>
                 <a
@@ -286,7 +286,7 @@ export default function AllMentorsPage() {
                 </span>
               </div>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-gray-900 dark:text-white">
+                <span class="text-2xl font-bold text-gray-900 dark:text-white mr-2">
                   6 mentees and 100+ mentoring minutes
                 </span>
                 <a
@@ -846,7 +846,7 @@ export default function AllMentorsPage() {
                 </span>
               </div>
               <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold text-gray-900 dark:text-white">
+                <span class="text-2xl font-bold text-gray-900 dark:text-white mr-2">
                   10 mentees and 100+ mentoring hours
                 </span>
                 <a

@@ -39,7 +39,7 @@ export default function BookAppointmentPage () {
             <label class="block text-gray-700 font-bold mb-2" for="date">
                 Date
             </label>
-            <h2 className='font-bold mb-2'>NB: Alhaji Abas is available only on Tuesdays and Thursdays after 10:am GMT</h2>
+            <h2 className='font-bold mb-2'>NB: Kindly take note of your mentors availability before booking an appointment. Check on your mentors page for more dtails</h2>
             <input
                 class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="date" type="date" placeholder="Select a date"/>
@@ -75,7 +75,7 @@ export default function BookAppointmentPage () {
                 id="message" rows="4" placeholder="Enter any additional information"></textarea>
         </div>
         <div class="flex items-center justify-center mb-4">
-            <Link to='/'><button
+            <Link to='/AppointmentSuccessAlert'><button
                 class="bg-gray-900 text-white py-2 px-4 rounded hover:bg-gray-800 focus:outline-none focus:shadow-outline"
                 type="submit">
                 Book Appointment

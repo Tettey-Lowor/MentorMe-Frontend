@@ -3,7 +3,9 @@ import React from 'react'
 export default function MentorsBlog() {
   return (
     <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 bg-grey-500">
-
+<p class="mt-6 mb-6GF text-4xl text-center sm:text-5xl leading-normal font-extrabold leading-7 text-black-500 font-regular">
+            Mentors' Blog 
+        </p>
     <div class="border-b mb-5 flex justify-between text-sm">
         <div class="text-indigo-600 flex items-center pb-2 pr-2 border-b-2 border-indigo-600 uppercase">
             {/* <svg class="h-6 mr-3" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg"
@@ -19,9 +21,9 @@ export default function MentorsBlog() {
                     <path d="M53.527,192.864c-2.187,3.518-1.109,8.142,2.409,10.329l183.478,114.081c1.232,0.767,2.601,1.132,3.953,1.132 c2.506,0,4.956-1.256,6.376-3.541c2.187-3.518,1.109-8.142-2.409-10.329L63.856,190.455 C60.338,188.266,55.714,189.346,53.527,192.864z"> </path>
                 </g>
             </svg> */}
-            <a href="#" class="font-semibold inline-block">Mentor's BLog</a>
+            
         </div>
-        <a href="#">See All</a>
+        <a href="#" class="font-semibold inline-block text-indigo-600" >See All</a>
     </div>
 
 

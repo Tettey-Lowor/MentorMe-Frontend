@@ -22,6 +22,8 @@ import LogoutPage from "./pages/LogoutPage";
 import MentorsBlog from "./Components/MentorsBlog";
 import ContactForm from "./pages/ContactForm";
 import MentorsResume from "./pages/MentorsResume";
+import AppointmentSuccessAlert from "./pages/AppointmentSuccessAlert";
+import Pricing from "./Components/pricing";
 
 
 const router = createBrowserRouter([
@@ -46,7 +48,10 @@ const router = createBrowserRouter([
   {path: "/LogoutPage", element: <LogoutPage/>},
   {path: "/MentorsBlog", element: <MentorsBlog/>},
   {path: "/ContactForm", element: <ContactForm/>},
-  {path: "/MentorsResume", element: <MentorsResume/>}
+  {path: "/MentorsResume", element: <MentorsResume/>},
+  {path: "/AppointmentSuccessAlert", element: <AppointmentSuccessAlert/>},
+  {path: "/Pricing", element: <Pricing/>},
+
 
 
   
